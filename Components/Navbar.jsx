@@ -25,13 +25,6 @@ function Navbar() {
                 <div className="nav-element" id="search-bar-div">
                     {/* search input (main) */}
                     <input id="search-bar" type="text" placeholder="Search for a product here" />
-
-                    {/* Serarch button */}
-                    <button className="search-icon-btn">
-                        {/* search icon (Used tooltip and icons) */}
-                        <Search size={30} strokeWidth={3} className="search-icon"
-                            data-tooltip-id="nav-tooltip" data-tooltip-content="Search" />
-                    </button>
                 </div>
 
                 {/* Links in navigation bar */}
@@ -45,16 +38,13 @@ function Navbar() {
                 </a>
 
 
-
                 {/* items cart */}
                 <a href="" className="nav-links" data-tooltip-id="nav-tooltip"
                     data-tooltip-content={"Check out items in your cart"}>
-
                         {/* Icon for cart */}
                     <ShoppingBag size={24} className="icons-navbar" />
                     Cart
                 </a>
-
 
 
                 {/* icon */}
