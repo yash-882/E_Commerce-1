@@ -1,0 +1,100 @@
+/*Styles for navigation bar*/
+.navbar{
+    display: flex;
+    height: 20vh;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    align-items: center;
+    padding: 0px 4px ;
+    justify-content: space-evenly;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius:3px;
+  }
+
+  /* Styles for website logo heading */
+  #web-logo-name-div{
+    height: 50px;
+    display: flex; align-items: end;
+  }
+  #web-logo-name-div a{
+    letter-spacing: 4px;
+    color: rgb(17, 147, 8);
+    text-decoration: none;
+    font-weight: 1000;
+    text-shadow: 0px 0px 2px rgb(72, 56, 108);
+  }
+
+  /* child block elements of navigation bar */
+  .nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 40%;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 0px 10px;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255, 0.3);
+  }
+
+  /* Options in navigation bar */
+  .nav-links:hover{
+
+      background-color: rgba(0, 0, 0, 0.2);
+      /* border:1px rgb(3, 3, 94) solid; */
+      box-shadow: 0px 0px 3px rgb(4, 0, 255);
+
+  }
+  
+  /* Search bar container */
+  #search-bar-div{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width:35%;
+    height:45%;
+  }
+
+  /* Search bar */
+  #search-bar{
+    height: 90%;
+    width: 90%;
+    font-size: 1.2rem;
+    padding: 0px 10px;
+    outline: none;
+    border-radius: 0px;
+    outline: none;
+    /* box-shadow: 0px 0px 2px rgb(0, 0, 0); */
+    /* border-radius: 5px; */
+    background-color: transparent;
+    border-right: none; border-top: none; border-left: none;
+    color: black;
+    border-bottom-color: orangered;
+  }
+
+    /* search-bar's search button*/
+    .search-icon-btn{
+      background-color: rgb(9, 32, 69);
+      border-radius: 50%;
+      height: 50px; width: 50px;
+      border:none;
+      color: orange;
+      text-align: center;
+      padding: 9px;
+      cursor: pointer;
+    }
+    .search-icon-btn:hover{
+      opacity: 0.5;
+    }
+    /* search icon */
+    .search-icon{
+     outline: none;
+    }
+  
+  /* Navigation bar's option icons */
+  .icons-navbar{
+    margin-right: 5px;
+  }
