@@ -23,6 +23,8 @@ function Navbar() {
 
                 {/* Search bar container */}
                 <div className="nav-element" id="search-bar-div">
+                    {/* search icon  */}
+                    <Search size={40} color="white" className="search-icon"/>
                     {/* search input (main) */}
                     <input id="search-bar" type="text" placeholder="Search for a product here" />
                 </div>
